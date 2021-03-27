@@ -10,6 +10,6 @@ COPY testng.xml .
 RUN mvn package
 EXPOSE 9191
 
-ENV Ryanjsanders <Ryan>
-ENV 95ab9afb-bcab-4477-a421-128bf5b984ff <your access key>
+ENV CLOUD_TESTING_USERNAME <Ryanjsanders>
+ENV CLOUD_TESTING_KEY <95ab9afb-bcab-4477-a421-128bf5b984ff>
 CMD java -cp target/dockertest-jar-with-dependencies.jar org.testng.TestNG testng.xml
