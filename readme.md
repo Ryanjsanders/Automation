@@ -1,4 +1,4 @@
-This is a fully working PoC project for running Selenium Tests in Docker. 
+This is a fully working PoC project for running Selenium Tests in Docker - rs.
 
 The test opens up Google page in the latest version of Chrome on Win 10, captures all the POST requests the page sends back and prints their URLs
 
