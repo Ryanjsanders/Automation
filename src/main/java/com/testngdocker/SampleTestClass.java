@@ -1,4 +1,4 @@
-package main.java.com.testngdocker;
+package com.testngdocker;
 import net.lightbody.bmp.BrowserMobProxyServer;
 import net.lightbody.bmp.core.har.Har;
 import net.lightbody.bmp.core.har.HarEntry;

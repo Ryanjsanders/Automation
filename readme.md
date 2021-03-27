@@ -11,3 +11,4 @@ Key highlights:
 - `browsermob.js` file is used to configure Sauce Connect
 - The tests are run inside a Docker container
 - `RUN ["mvn", "verify", "clean", "--fail-never"]` in Dockerfile is need to ensure you cache all the downloaded dependencies
+- Test
