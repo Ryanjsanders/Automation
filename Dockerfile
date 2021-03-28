@@ -4,7 +4,6 @@ WORKDIR /usr/local/app
 COPY pom.xml .
 RUN ["mvn", "verify", "clean", "--fail-never"]
 COPY . .
-COPY browsermob.js .
 COPY testng.xml .
 
 RUN mvn package
