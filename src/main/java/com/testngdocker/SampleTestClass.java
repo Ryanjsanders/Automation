@@ -1,6 +1,7 @@
 package main.java.com.testngdocker;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.*;
@@ -8,7 +9,7 @@ import org.testng.annotations.*;
 
 public class SampleTestClass {
 
-    private WebDriver driver;
+    private final WebDriver driver = new ChromeDriver();
 
     @BeforeClass
     public void SetUp() {
